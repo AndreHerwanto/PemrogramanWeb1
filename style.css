@@ -35,3 +35,10 @@ section {
 footer {
   background-color: #00aaa3;
 }
+
+.animasiatas {
+  margin-top: -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
