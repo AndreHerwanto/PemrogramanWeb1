@@ -68,17 +68,6 @@
             </div>
         </div>
     </nav>
-    <script type="text/javascript">
-        var nav = document.querySelector('nav');
-
-        window.addEventListener('scroll', function () {
-            if (window.pageYOffset > 100) {
-                nav.classList.add('warna', 'shadow');
-            } else {
-                nav.classList.remove('warna', 'shadow');
-            }
-        });
-    </script>
 
 
     <!-- NAVBAR ATAS -->
@@ -323,6 +312,18 @@
         })
     </script>
     <!-- AKHIR SCRIP JS CONTACT FORM -->
+
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('warna', 'shadow');
+            } else {
+                nav.classList.remove('warna', 'shadow');
+            }
+        });
+    </script>
 </body>
 
 </html>
