@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 13rem;
-  background-color: linear-gradient(to top, #00aaa3, #10afa3, #1eb4a2, #2ab8a1, #35bd9f);
+  background-image: linear-gradient(to top, #00aaa3, #10afa3, #1eb4a2, #2ab8a1, #35bd9f);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
