@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u7010320/public_html/andreherwanto/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R Vd $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
+    -
